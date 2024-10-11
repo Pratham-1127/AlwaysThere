@@ -1,0 +1,76 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 400px; /* Use max-width to allow flexibility */
+    width: 100%; /* Ensure it uses full width up to the max-width */
+    margin: 50px auto; /* Centering the container */
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.signup-title {
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.5rem; /* Set a font size that scales well */
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure the form takes the full width of the container */
+    align-items: center;
+}
+
+.signup-input {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%; /* Use full width for inputs */
+    max-width: 300px; /* Optional: to limit input width */
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.signup-input:focus {
+    border-color: #007bff;
+}
+
+.signup-button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Use full width for button */
+    max-width: 300px; /* Optional: to limit button width */
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: #0056b3;
+}
+
+.signup-link-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}

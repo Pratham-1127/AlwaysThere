@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background color */
+}
+
+/* App Container */
+.App {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align children in a column */
+    align-items: center; /* Center contents horizontally */
+    max-width: 800px; /* Limit maximum width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+}
+
+/* Header */
+
+
+/* Headings */
+h1 {
+    color: #333; /* Dark text color */
+    font-size: 2.5rem; /* Font size */
+    margin: 10px 0; /* Spacing around heading */
+}
+
+/* Footer */
+footer {
+    margin-top: 20px; /* Space before footer */
+    font-size: 14px; /* Smaller font size */
+    color: #666; /* Gray text color */
+}
+
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+  }
+  
+  .welcome-text {
+    width: 40%;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .welcome-media {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buddy-media {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  

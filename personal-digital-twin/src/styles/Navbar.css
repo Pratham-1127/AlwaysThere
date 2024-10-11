@@ -1,0 +1,80 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+
+/* Navigation */
+nav {
+    background-color: #98FF98; /* Dark background for nav */
+    padding: 10px 20px; /* Padding on the sides */
+    height: 10%;
+    width: 100%; /* Full width for nav */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Vertically center content */
+    position: fixed; /* Stick the navbar to the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it's on top of other content */
+    box-sizing: border-box; /* Prevent the navbar from overflowing */
+}
+
+/* Logo and app name container */
+.navbar-logo {
+    display: flex; /* Flexbox for logo and app name alignment */
+    align-items: center; /* Vertically center logo and text */
+}
+
+/* Logo image */
+.logo {
+    width: 30px; /* Set width for the logo */
+    height: 30px; /* Set height for the logo */
+    margin-right: 10px; /* Space between logo and app name */
+}
+
+/* App name styling */
+.app-name {
+    color: #000000; /* Cool blue color */
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem; /* Font size for app name */
+    font-weight: bold; /* Bold app name */
+    align-self:flex-end ;
+}
+
+/* Navbar links */
+.navbar-links {
+    display: flex; /* Flexbox to align links */
+    align-items: center; /* Vertically center links */
+}
+
+nav a {
+    color: #000000; /* React logo color */
+    text-decoration: none;
+    margin: 0 15px; /* Spacing between links */
+    font-size: 18px; /* Font size */
+}
+
+
+nav a:hover {
+    text-decoration: none;
+    border: solid rgb(151, 107, 216) 2px;
+    padding: 3px;
+    box-shadow: slategrey;
+} 
+
+
+/* Ensure the navbar content fits within the screen */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack items vertically on small screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .navbar-links {
+        margin-top: 10px; /* Space below the logo */
+    }
+
+    nav a {
+        margin: 5px 0; /* Reduce spacing between links */
+    }
+}
